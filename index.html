@@ -74,12 +74,12 @@
     <h3 class="group-title">Setting up your Flight Deck - pattern flow -- overhead ↑↑↑ -- ECAM ↓↑ -- pedestal ↓↓↓ -- FCU glareshield →
 </h3>
     <ul>
-        <li class="item">Crew supply on</li>
-        <li class="item">RCDR GND CTL</li>
+        <li class="item special">Crew supply on</li>
+        <li class="item special">RCDR GND CTL</li>
         <li class="item">EXT LT strobe auto, beacon off, NAV pos 1, LOGO auto, WING off, LDG off, NOSE off</li>
-        <li class="item">SIGNS seat belts on, no smoking auto, no mobile auto, emer exit light arm</li>
+        <li class="item special">SIGNS seat belts on | no smoking auto | no mobile auto | emer exit light arm</li>
         <li class="item">FUEL pump left to right on</li>
-        <li class="item">ISIS baro set</li>
+        <li class="item special">ISIS baro set</li>
         <li class="item">A brk off, anti skid on</li>
         <li class="item">RMP check again</li>
         <li class="item">Thrust lever idle, eng master lever off, eng mode selector norm</li>
@@ -90,21 +90,23 @@
 
     <h3 class="group-title">Programming the FMS</h3>
     <ul>
-        <li class="item">ATC COM bt - ADS/C connected</li>
+    <li class="item">ATC COM bt - ADS/C connected</li>
     <li class="item">MSG RECORD pg - deleted</li>
     <li class="item">SURV bt - XPDR stby</li>
-    <li class="item">INIT bt - check according FTL plan CRZ FL, temp, tropo, WIND request</li>
-    <li class="item">IRS</li>
-    <li class="item">Departure - insert departure and then crosscheck on ND and charts</li>
-    <li class="item">Insert arrival then crosscheck on ND and charts</li>
-    <li class="item">Navaids</li>
-    <li class="item">FUEL and LOAD set ZFW, ZFWCG, BLOCK, PAX NBR, check and set FUEL according FLT plan</li>
-    <li class="item">T.O. perf sent from OIS and confirm, packs set manually and T.O. shift also manually, check THR RED, Accel, trans alt, eo accel set</li>
-    <li class="item">Move to CLB and check PRESEL speed from there to POS MONITOR set DIST TO departure RWY</li>
-    <li class="item">F-PLN bt then F-PLN INFO set FIX INFO for EOsid procedure</li>
-    <li class="item">SEC F-PLN bt</li>
-    <li class="item">SEC1 EOsid procedure - click dep RWY and choose INSERT NEXT WPT, add manually DEP RWY/HDG/NM and set arrival</li>
-    <li class="item">SEC2 - only copy active FPL</li>
+    <li class="item special">INIT bt - check according FTL plan CRZ FL, temp, tropo, WIND request</li>
+    <li class="item special">IRS</li>
+    <li class="item special">Departure</li>
+    <li class="item special indented">insert departure and then crosscheck on ND and charts</li>	    
+    <li class="item special indented">Insert arrival then crosscheck on ND and charts</li>
+    <li class="item special">Navaids</li>
+    <li class="item special">FUEL and LOAD set ZFW, ZFWCG, BLOCK, PAX NBR, check and set FUEL according FLT plan</li>
+    <li class="item special">T.O.</li>
+    <li class="item special indented">perf sent from OIS and confirm, packs set manually and T.O. shift also manually, check THR RED, Accel, trans alt, eo accel set</li>	    
+    <li class="item special indented">Move to CLB and check PRESEL speed from there to POS MONITOR set DIST TO departure RWY</li>
+    <li class="item special">F-PLN bt then F-PLN INFO set FIX INFO for EOsid procedure</li>
+    <li class="item special">SEC F-PLN bt</li>
+    <li class="item special indented">SEC1 EOsid procedure - click dep RWY and choose INSERT NEXT WPT, add manually DEP RWY/HDG/NM and set arrival</li>
+    <li class="item special indented">SEC2 - only copy active FPL</li>
     <li class="item">Back to F-PLN if is set STEP CLIMB, click to WPT and choose STEP ALT, set WPT and alt</li>
     <li class="item">After that, set FMS to PF site - ACTIVE/PERF and PM site - ACTIVE/F-PLN</li>
     <li class="item">Set FCU (glareshield) baro, CSTR, alt, ...</li>
@@ -119,18 +121,18 @@
 
 <h3 class="group-title">Starting the engines</h3>
     <ul>
-         <li class="item">When boarding complete, check door and loadsheet update fuel and load page, check GWCG</li>
+    <li class="item">When boarding complete, CHECK DOOR and UPDATE LOADSHEET fuel and load page, check GWCG</li>
     <li class="item">T.O. perf again on OIS, send to FMS and confirm</li>
-    <li class="item">Disconnect ext power on overhead and also in OIS ground page, remove chock and arm sliding, check ECAM</li>
-    <li class="item">Beacon turn ON</li>
-    <li class="item">Surv pg - default settings</li>
-    <li class="item">If Amber flight !!!ACARS!!!</li>
-    <li class="item">C/L menu bt - before start below to the line activate GSX push-back, then if on Vatsim call for clearance push and start</li>
+    <li class="item special">Disconnect ext power on overhead and also in OIS ground page, remove chock and arm sliding, check ECAM</li>
+    <li class="item special">Beacon turn ON</li>
+    <li class="item special">Surv pg - default settings</li>
+    <li class="item special">If Amber flight !!!ACARS!!!</li>
+    <li class="item special">C/L menu bt - before start below to the line activate GSX push-back, then if on Vatsim call for clearance push and start</li>
     <li class="item">Set display OIS and ND for taxi and call pushback service</li>
-    <li class="item">Eng mode selector to IGN/START and eng 1 start lever ON, when avail then eng 2, eng must run 30 sec on idle</li>
-    <li class="item">Eng after start flow - eng mode selector to NORM, APU bleed off, wing and eng anti-ice (if needed), APU off</li>
-    <li class="item">Check ECAM status - arm splrs, rudder trim reset bt, set flaps, check trim on ND L=R</li>
-    <li class="item">C/L menu bt - after start</li>
+    <li class="item special">Eng mode selector to IGN/START and eng 1 start lever ON, when avail then eng 2, eng must run 30 sec on idle</li>
+    <li class="item special">Eng after start flow - eng mode selector to NORM, APU bleed off, wing and eng anti-ice (if needed), APU off</li>
+    <li class="item special">Check ECAM status - arm splrs, rudder trim reset bt, set flaps, check trim on ND L=R</li>
+    <li class="item special">C/L menu bt - after start</li>
     </ul>
 
 <h3 class="group-title">Taxi to HP rwy</h3>
@@ -143,34 +145,34 @@
     <li class="item">BRK check also on ECAM</li>
     <li class="item">Taxi camera on</li>
     <li class="item">Strobe ON if crossing RWY</li>
-    <li class="item">Taxi flow - auto brake ON, check squawk, TO config BT</li>
-    <li class="item">C/L menu BT - before takeoff down to the line</li>
+    <li class="item special">Taxi flow - auto brake ON, check squawk, TO config BT</li>
+    <li class="item special">C/L menu BT - before takeoff down to the line</li>
     </ul>
 
 <h3 class="group-title">from HP rwy, lineup and Takeoff</h3>
     <ul>
     <li class="item">When ready to lineup perform lineup flow ANF off, range area out off taxi mode, OIS set for SID chart</li>
-    <li class="item">Packs set</li>
-    <li class="item">Strobe ON</li>
-    <li class="item">IF received takeoff clearance, set Nose light to TO and LDG ON</li>
+    <li class="item special">Packs set</li>
+    <li class="item special">Strobe ON</li>
+    <li class="item special">IF received takeoff clearance, set Nose light to TO and LDG ON</li>
     <li class="item">WX on, TERR on if needed</li>
     <li class="item">TCAS set ABV</li>
-    <li class="item">C/L menu BT - before takeoff below to the line</li>
+    <li class="item special">C/L menu BT - before takeoff below to the line</li>
     <li class="item">Clear left side and right side, lineup RWY and full stop on center line</li>
     <li class="item">Takeoff - engine 25%, half forward side stick, 3 deg per 1 sec, then 12.5%; positive climb gear up, after 5 sec AP 1 ON</li>
     <li class="item">When S speed - flaps 0, disarm SPLR, Nose LGT off, Pack off if needed</li>
-    <li class="item">C/L menu BT - after takeoff down to the line</li>
+    <li class="item special">C/L menu BT - after takeoff down to the line</li>
     </ul>
 
 <h3 class="group-title">Climb</h3>
 <ul>
-    <li class="item">After takeoff flow - to near 10,000 ft, flaps up, speed brake retracted, gear up, packs on</li>
-    <li class="item">Climb flow when reaching 10,000 ft - landing light off, seat belts auto</li>
+    <li class="item special">After takeoff flow - to near 10,000 ft, flaps up, speed brake retracted, gear up, packs on</li>
+    <li class="item special">Climb flow when reaching 10,000 ft - landing light off, seat belts auto</li>
     <li class="item">EFIS options - range, TERR, ...</li>
-    <li class="item">ECAM memo check</li>
+    <li class="item special">ECAM memo check</li>
     <li class="item">FMS check - Navaids | clear manually added | PERF check optimum ALT and max, and compare with FLP</li>
-    <li class="item">Check transition altitude and set BAROS to STD</li>
-    <li class="item">C/L menu BT - after takeoff below to the line</li>
+    <li class="item special">Check transition altitude and set BAROS to STD</li>
+    <li class="item special">C/L menu BT - after takeoff below to the line</li>
 </ul>
 
     <script>
